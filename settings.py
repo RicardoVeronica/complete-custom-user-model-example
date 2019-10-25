@@ -48,6 +48,8 @@ INSTALLED_APPS.extend([
     'rest_framework.authtoken',
 ])
 
+AUTH_USER_MODEL = 'profiles_api.UserProfile'
+
 # To see the settings that have been applied, use the Django diffsettings
 # management command.
 # See https://docs.divio.com/en/latest/how-to/configure-settings.html#list
